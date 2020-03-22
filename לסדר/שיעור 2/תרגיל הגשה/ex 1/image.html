@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+            function toggleImage() {
+               var img1 = "./img/1.jpg";
+               var img2 = "./img/2.jpg";
+               
+               var imgElement = document.getElementById('toggleImage');
+               console.log(imgElement.src)
+               imgElement.src = (imgElement.src === img1)? img2 : img1;
+            }
+            </script>
+<style>
+img{
+
+    height: 300px;
+    width: 300px;
+
+}
+</style>            
+</head>
+
+<body>
+    <img src="./img/1.jpg" id="toggleImage" onclick="toggleImage();"/>
+
+
+</body>
+
+</html>

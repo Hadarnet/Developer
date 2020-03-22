@@ -1,0 +1,113 @@
+html {
+background: #ffc680;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    background:#ffc680;
+    }
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+.panels{
+min-height: 100vh;
+overflow: hidden;
+display: flex;
+flex-direction: row-reverse;
+
+}
+
+.panel{
+background: #6B0f9c;  
+box-shadow: inset 0 0 0 5px rgba(255,255,255,0.1);
+color: white;
+text-align: center;
+align-items: center;
+
+transition: 
+    font-size 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045),
+    flex 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045),
+    background 0.2s;
+font-size: 15px;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+flex:1;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.panel > * {
+margin: 0;
+width: 100%;
+transition:transform 0.5;
+flex: 1 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.panel > *:first-child { transform: translateY(-100%) }
+.panel.open-active > *:first-child { transform: translateY(0) }
+.panel > *:last-child { transform: translateY(100%) }
+.panel.open-active > *:last-child { transform: translateY(0) }
+
+.panel p {
+    text-transform: uppercase;
+    text-shadow:  0 0 4p rgba(0,0,0,0.72), 0 0 24px rgba(0,0,0,0.42);
+    font-size: 2em;
+}
+
+.panel p:nth-child(2){
+    font-size: 3em;
+}
+
+.panel.open{
+    flex: 5;
+    font-size: 23px;
+}
+
+
+
+.panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
+.panel2 { background-image:url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500); }
+.panel3 { background-image:url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d); }
+.panel4 { background-image:url(https://source.unsplash.com/ITjiVXcwVng/1500x1500); }
+.panel5 { background-image:url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500); }
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(235, 232, 232, 0.289);
+    font-weight: 100;
+    width: 100%;
+    height: 10%;
+}    
+
+
+
+
+.textFo h2{
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.linkFo a{
+    color: navy;
+    
+    font-size: 20px;
+    font-weight: 100;
+
+
+    text-decoration: none;
+
+}

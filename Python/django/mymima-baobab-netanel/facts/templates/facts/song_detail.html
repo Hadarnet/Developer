@@ -1,0 +1,35 @@
+{% extends 'facts/base.html' %}
+
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'facts/style.css' %}">
+
+{% block content %}
+
+{{ object.artist.id }}{{ object.artist.name }}<br><br><br>
+{{ artists }}
+
+    {% if is_paginated %}
+  <div class="pagination">
+    {% if page_obj.has_previous %}
+      <div><a href="?page={{ page_obj.previous_page_number }}">&laquo;</a></div>
+    {% else %}
+      <div class="disabled"><span>&laquo;</span></div>
+    {% endif %}
+    {% for i in paginator.page_range %}
+      {% if page_obj.number == i %}
+        <div class="active"><span>{{ i }} <span class="sr-only">*</div>
+      {% else %}
+        <div><a href="?page={{ i }}">{{ i }}</a></div>
+      {% endif %}
+    {% endfor %}
+    {% if page_obj.has_next %}
+      <div><a href="?page={{ page_obj.next_page_number }}">&raquo;</a></div>
+    {% else %}
+      <div class="disabled"><span>&raquo;</span></div>
+    {% endif %}
+  </div>
+{% endif %}
+
+{% endblock %}

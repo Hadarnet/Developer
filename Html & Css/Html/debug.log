@@ -1,0 +1,2 @@
+[1124/114015.524:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1124/135053.239:ERROR:file_io.cc(134)] WriteFile: ‏‏רכיב ה- Pipe נסגר. (0xE8)

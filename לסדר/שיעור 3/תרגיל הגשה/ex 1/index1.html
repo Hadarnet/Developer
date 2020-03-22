@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frist Page!</title>
+</head>
+
+<body>
+    
+    <input type="number" id="number">
+    <button id="submit">send</button>
+  
+
+</div>                            
+
+
+<script>                    
+const sumOfAll = () => {
+    var num1 = document.querySelector('#number').value;
+
+    for ( i= 0; i < num1; i++){
+    var img = document.createElement("img");
+    img.src = "http://www.fistukartists.co.il/wp-content/uploads/2017/02/smile-clipart-1-295x300.png";
+    document.body.appendChild(img);
+    }
+}
+document.getElementById("submit").addEventListener("click",sumOfAll);
+</script>
+
+</body>
+
+</html>

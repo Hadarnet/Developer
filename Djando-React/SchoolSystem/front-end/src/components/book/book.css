@@ -1,0 +1,13 @@
+video{
+    height: 30%;
+    width: 20%;
+
+}
+
+.nameBook{
+    display: flex;
+    flex-direction: column;
+    height: 18%;
+    width: 20%;
+
+}

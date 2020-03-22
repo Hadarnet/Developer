@@ -1,0 +1,77 @@
+
+.main {
+    border: black 1px solid;
+    width: 95vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main .top {
+
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 100%;
+    display: flex;
+text-align: center;
+    flex-direction: column;
+    border: red 3px solid;
+    justify-content: center;
+
+
+      
+}
+
+
+
+.foot{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+.rig{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+margin: 5px;
+
+}
+
+.rigth{
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin: 5px;
+
+
+    
+}
+
+.left{
+    width: 100px;
+    height: 80px;
+    background-color: blue;
+    justify-content: flex-start;
+    margin: 5px;
+
+
+    
+}
+
+
+
+.main .top .flag {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(206, 37, 37);
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+

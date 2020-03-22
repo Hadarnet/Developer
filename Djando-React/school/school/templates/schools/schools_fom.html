@@ -1,0 +1,16 @@
+
+
+    <h1>Contact Us</h1>
+
+    <div>
+        <form method="post" novalidate>
+            {% csrf_token %}
+            <ul>
+                {{ form.as_ul }}
+            </ul>
+            <button>Send feedback</button>
+        </form>
+    </div>
+
+
+

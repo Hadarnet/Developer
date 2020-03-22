@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        function test_equal(actual, expected, msg) {
+            if (Array.isArray(expected)) {
+                for (var i = 0; i < expected.length; i++) {
+                    test_equal(actual[i], expected[i], "item in index " + i);
+                }
+            } else {
+                if (actual !== expected) {
+                    console.log(`Error testing ${msg || ''}. expected: ${expected}, got ${actual}`)
+                }
+            }
+        }
+function getLenghtOfStrings(arry){
+    var length=[];
+    for (let index = 0; index < arry.length; index++) {
+        length [index] = arry [index].length    
+    }
+return length;
+}        
+        test_equal(getLenghtOfStrings(["one", "two", "three"]), [3, 3, 5]);
+        test_equal(getLenghtOfStrings(["a", "ab", "abc"]), [1, 2, 3]);
+        test_equal(getLenghtOfStrings(["", "go", ""]), [0, 2, 0]);
+        test_equal(getLenghtOfStrings(["alone"]), [5]);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

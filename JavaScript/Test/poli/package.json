@@ -1,0 +1,18 @@
+{
+  "name": "poli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "chi": "^0.0.10",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

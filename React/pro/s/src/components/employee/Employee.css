@@ -1,0 +1,21 @@
+
+.employee{
+
+  background-image:url('../../img/4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+
+  .employeeMain{
+    background-color: rgba(0, 0, 0, 0.335);
+    width: 100vw;
+  }
+  

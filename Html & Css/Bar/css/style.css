@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+   
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content:center;
+    width: 100vw;
+background-color: rgb(38, 2, 78);
+
+    
+}
+
+.allnav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 97%;
+}
+
+
+.clogo{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.cham{
+        display: flex;
+flex-direction: column; 
+
+}
+.ham{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+  
+}
+.logo{
+
+
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.hadar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+    margin: 2px 0;
+
+}
+.hadar a{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+.bar{
+ display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+width: 40%;
+
+}
+
+
+.bar a {
+    font-family: 'heebo', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.bar a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.link {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100px;
+    width: 700px;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.link .fas {
+    background: black;
+    opacity: 0.9;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    height: 70px;
+    width:80px;
+    margin-right: 10px;
+    padding-top: 20PX;
+    text-align: center;
+}
+.link .fas:hover {
+    background: white;
+    color: black;
+
+
+}
+.link h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+
+.main {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.main .left {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.backtext{
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.maintetex {
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+}
+
+.Home h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-weight: 300;
+    text-shadow: 0 0 2px #000;
+}
+
+.Home h2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+}
+
+
+
+
+
+.cboot{
+    text-align: center;
+    padding-top: 40PX;
+
+}
+.cboot button{
+background-color: black;
+border: white 2PX solid;
+color: white;
+cursor: pointer;
+border-radius: 20px;
+padding: 10PX;
+padding-left: 60PX;
+padding-right: 60PX;
+width: 200px;
+font-size: 12px;
+font-style: bolt;
+font-weight: bold;
+font-family: 'Heebo', sans-serif;
+transition: background-color 2s, width 2s;
+}
+
+.cboot button:hover {
+    background-color: white;
+    border: black 2PX solid;
+    color: black;
+
+
+}
+
+
+
+footer.cfooter{
+    height: 6.8vh;
+    overflow: hidden;
+    background-color:rgb(38, 2, 78);
+    justify-content:center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.cfooter h2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    color:white;
+}
+.Textcs h2{
+    font-family: 'heebo' , sans-serif;
+    font-size: 14px;
+    color:white;
+    text-shadow: 0 0 4px #000;
+    text-align: center;
+
+
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .bar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 778px){
+    .link{
+        display: none;   
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .Cstumerlogo.one{
+        display: none;
+    }
+}
+@media only screen and (max-width: 870px){
+    .Cstumerlogo.two{
+        display: none;   
+    }
+}
+@media only screen and (max-width: 670px){
+    .Cstumerlogo.tree{
+        display: none;
+        
+    }
+
+}
+@media only screen and (max-width: 470px){
+    .Cstumerlogo.four{
+        display: none;   
+    }
+        
+
+}
+
+
+@media only screen and (max-width: 250px){
+    .Cstumerlogo.four{
+        display: none;   
+    }
+   
+}
+
+
+

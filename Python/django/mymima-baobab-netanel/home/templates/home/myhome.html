@@ -1,0 +1,31 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}">
+<link href="https://fonts.googleapis.com/css?family=Heebo:400,500&display=swap&subset=hebrew" rel="stylesheet">
+
+<div class="homes">
+    <div class="homesImg"><img src="../../static/home/1.jpg"></div>
+    <div class="homeText"><h1>מוש השור</h1></div>
+    <div class="song">
+
+    </div>
+    <div class="homeLink">
+        <a href="./facts/create">הוסף עובדה</a>
+        <a href="./facts/">רשימת עובודת</a>
+        <a href="./facts/song">רשימת שירים</a>
+        <a href="./facts/artist">רשימת אמנים</a>
+
+    </div>
+    <div class="homeFrom">
+<form class="Song" method="GET" action="{% url 'home:search' %}">
+        <button class="Song" type="submit"> חפש </button>
+    <input class="Song" type="search" name="search">
+</form>
+    </div>
+        <div class="homeTube">
+
+<iframe width="350" height="255" src="https://www.youtube.com/embed/t0GigRqII70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+
+</div>
+
+

@@ -1,0 +1,21 @@
+
+.iconClas{
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+
+}
+.MainIconImage img{
+
+  height: 15vh;
+  width: 12vw;
+
+}
+
+.MainIconText a{
+  color: whitesmoke;
+  font-size: 1.6vw;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+}

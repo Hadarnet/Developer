@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 462 461.5" style="enable-background:new 0 0 462 461.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E62C20;}
+	.st1{fill:#49297B;}
+	.st2{fill:#362154;}
+	.st3{fill:#DDDDDD;}
+	.st4{clip-path:url(#SVGID_2_);}
+	.st5{fill:none;}
+	.st6{fill:#EDEDED;}
+	.st7{fill:#B5B5B5;}
+	.st8{fill:#CCCCCC;}
+</style>
+<g>
+	<circle class="st0" cx="231" cy="230.8" r="229.5"/>
+	<g>
+		<rect x="150" y="225.8" class="st1" width="162" height="136"/>
+		<rect x="150" y="225.8" class="st2" width="81" height="136"/>
+		<path class="st3" d="M246.2,274.5c0-8.7-7.1-15.8-15.8-15.8s-15.8,7.1-15.8,15.8c0,5.8,3.2,10.9,7.9,13.6l-5.8,40.6h28.4
+			l-5.9-41.2C243.5,284.7,246.2,279.9,246.2,274.5z"/>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="118" y="99.8" width="226" height="126"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st4">
+				<path class="st5" d="M263,303.3v-122c0-18.7-15.3-34-34-34v190C247.7,337.2,263,322,263,303.3z"/>
+				<path class="st5" d="M229,147.2c-18.7,0-34,15.3-34,34v122c0,18.7,15.3,34,34,34h0L229,147.2L229,147.2z"/>
+				<path class="st3" d="M228.8,116.8v17.7c26,0,47.2,21.2,47.2,47.2v119.9c0,26-21.2,47.2-47.2,47.2v130.7
+					c35.7,0,64.9-29.2,64.9-64.9V181.6C293.7,145.9,264.5,116.8,228.8,116.8z"/>
+				<path class="st6" d="M228.8,348.6c-26,0-47.2-21.2-47.2-47.2V181.6c0-26,21.2-47.2,47.2-47.2h0v-17.7h0
+					c-35.7,0-64.9,29.2-64.9,64.9v232.8c0,35.7,29.2,64.9,64.9,64.9h0L228.8,348.6L228.8,348.6z"/>
+				<path class="st7" d="M264.6,183.4v127.7c0,19.6-16,35.6-35.6,35.6v14.7c27.7,0,50.2-22.5,50.2-50.2V183.4
+					c0-27.7-22.5-50.2-50.2-50.2v14.7C248.6,147.8,264.6,163.8,264.6,183.4z"/>
+				<path class="st8" d="M178.8,183.4v127.7c0,27.7,22.5,50.2,50.2,50.2h0v-14.7h0c-19.6,0-35.6-16-35.6-35.6V183.4
+					c0-19.6,16-35.6,35.6-35.6h0v-14.7h0C201.3,133.2,178.8,155.7,178.8,183.4z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,68 @@
+{# HTML5 declaration #}
+<!DOCTYPE html>
+<html>
+    {# Make modifiable head elements #}
+    <head>
+        <title>{% block title %}Home {% endblock title %} | CRM Easy</title>
+        {% block head_favicon %}
+            <link rel="icon" type="image/png"
+                  href="{{ STATIC_URL }}images/favicon.ico">
+        {% endblock head_favicon %}
+        {% block head_meta %}
+            {% block head_meta_charset %}
+                <meta http-equiv="Content-Type"
+                      content="text/html; charset=utf-8" />
+            {% endblock head_meta_charset %}
+            {% block head_meta_contentlanguage %}
+                <meta http-equiv="Content-Language" value="en-US" />
+            {% endblock head_meta_contentlanguage %}
+            {% block head_meta_viewport %}
+                <meta name="viewport"
+                      content="width=device-width, initial-scale=1.0">
+            {% endblock head_meta_viewport %}
+        {% endblock head_meta %}
+        {% block head_css %}
+            {% block head_css_site %}
+                <link href="{{ STATIC_URL }}../../static/facts/style.css"
+                      rel="stylesheet" media="screen">
+            {% endblock head_css_site %}
+            {% block head_css_section %}{% endblock head_css_section %}
+            {% block head_css_page %}{% endblock head_css_page %}
+        {% endblock head_css %}
+    </head>
+<body>
+    {# Navigation Menu #}
+        <div class="navbar">
+            <div class="classNav">
+            <div class="classLogo">
+                <div class="logo"><img src="./img/logo.png" alt="logohadarnet"></div>
+            </div>
+
+            <div class="naVlink">
+                <div class="naVlinkB"><a  href="../">בית</a></div>
+                <div class="naVlinkB"><a  href="./artist">רשימת אמנים</a></div>
+                <div class="naVlinkB"><a  href="./song"> רשימת שירים</a></div>
+                <div class="naVlinkB"><a  href="./">רשימת עובדות</a></div>
+                <div class="naVlinkB"><a href="./contact.html">צור קשר</a></div>
+            </div>
+
+            <div class="classHam">
+                <div class="ham"></div>
+                <div class="ham"></div>
+                <div class="ham"></div>
+            </div>
+        </div>
+        </div>
+    {# The Document Body #}
+    <div class="site-wrapper">
+        {% block content %}
+            if you see this, something is wrong!
+        {% endblock content %}
+    </div>
+    {# The Footer #}
+    <div class="footer">
+        <div class="container">
+            <div>האתר נבנה ומתוזק ע"י<a  href="http://WWW.Hadarnet.com"> HadarNET</a> </div>
+        </div>
+    </div>
+</body>

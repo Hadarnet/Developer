@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'tesla';
+    src: url('TESLA.ttf');
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    font-size:100%;
+    font:inherit;
+    font-family: tesla;
+    vertical-align:baseline;
+    padding-left: 20%;
+}
+.ham{
+    vertical-align: bottom;
+    padding-bottom: 1px;
+ 
+}
+
+.stripe {
+    border: blue 1px solid;
+    text-align: center;
+    font-family: monospace;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.menu-entry {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.promo {
+    height: 200px;
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.featured {
+    height: 100px;
+}
+
+.featured .featured-item {
+    background-size: cover;
+    border: green 1px solid;
+    display: inline-block;
+    width: 24%;
+    height: inherit;
+}
+
+.iwatch {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl36Lb8des4ak360rpsjBxkKrdcjoBJfByZEIOpXSfH3nDw0hB&s');
+
+}
+
+.ipad {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl36Lb8des4ak360rpsjBxkKrdcjoBJfByZEIOpXSfH3nDw0hB&s');
+
+}
+
+.Pencil {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl36Lb8des4ak360rpsjBxkKrdcjoBJfByZEIOpXSfH3nDw0hB&s');
+
+}
+
+.imac {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl36Lb8des4ak360rpsjBxkKrdcjoBJfByZEIOpXSfH3nDw0hB&s');
+
+}
+
+.button {
+border: 1px solid black;
+font-size: large;
+padding: 5px 15px;
+display: inline-block;
+border-radius: 200px;    
+}
+.button:hover{
+    background-color: blueviolet;
+}
+.circle {
+    height: 5px;
+    width: 5px;
+    border: 1px solid black
+}
+
+.link {
+    font-size: 30px;
+    text-decoration: none;
+}

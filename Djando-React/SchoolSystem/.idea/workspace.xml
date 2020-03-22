@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7916e883-78a3-4f15-a24f-0b85ecb50084" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="1XsoQl3V2naUaNsuXWHMRSifVXd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end/src/components" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components\teacher" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components\school" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components\student" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components\book" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components\techertlist" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\uploads\uploads" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\school\templates" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\course" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components\adminslide" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SchoolSystem" type="Python.DjangoServer" factoryName="Django server">
+      <module name="SchoolSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7916e883-78a3-4f15-a24f-0b85ecb50084" name="Default Changelist" comment="" />
+      <created>1581844150206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581844150206</updated>
+      <workItem from="1581844167242" duration="3110000" />
+      <workItem from="1581940180182" duration="696000" />
+      <workItem from="1581942309217" duration="3585000" />
+      <workItem from="1582031821491" duration="2611000" />
+      <workItem from="1582040441009" duration="3057000" />
+      <workItem from="1582051266489" duration="2232000" />
+      <workItem from="1582104251328" duration="2891000" />
+      <workItem from="1582132059926" duration="37955000" />
+      <workItem from="1582447845107" duration="42330000" />
+      <workItem from="1582572115185" duration="7532000" />
+      <workItem from="1582579827563" duration="16778000" />
+      <workItem from="1582645774577" duration="32214000" />
+      <workItem from="1582792505231" duration="16000" />
+      <workItem from="1583005106961" duration="274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Inspections" timestamp="1582220073683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1582220073683" />
+    <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582579848230">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582579848230" />
+    <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582705921656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1582705921656" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582666857844">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582666857844" />
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1582133193952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582133193952" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582451470970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582451470970" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582451470970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582451470970" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582451470970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582451470970" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582451470970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582451470970" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1582133232111">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582133232111" />
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583005378755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583005378755" />
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582464318638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1582464318638" />
+    <state x="394" y="129" width="606" height="536" key="find.popup" timestamp="1582729911236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="394" y="129" width="606" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1582729911236" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582729960747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582729960747" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/front-end/src/components/admin/Admin.jsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/front-end/src/components/school/Tab.jsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+.dad{
+    text-align: center;
+}
+
+.text{
+    display: block;
+    border: olive 1px solid;
+}
+
+
+@media (min-width: 1000px) {
+
+.text{
+    display: inline-block;
+    width: 20%;
+}}
+
+
+    
+    
+}

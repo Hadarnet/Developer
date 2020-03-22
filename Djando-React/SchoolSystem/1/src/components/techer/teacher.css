@@ -1,0 +1,52 @@
+.teacher{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    direction: rtl
+}
+
+.container{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.rigth{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.tab1{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #223052b0;
+  height: 8.4%
+}
+.tab2{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #223052b0;
+  height: 8.4%
+}

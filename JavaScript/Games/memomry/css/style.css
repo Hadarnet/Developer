@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.card {
+    width: 16vw;
+    height: 15vh;
+    border: pink 2px solid;
+    margin: 2px;
+    background-color: white;
+    border-radius: 12px;
+    background-position: center;
+    background-size: 0px;
+    background-repeat: no-repeat;
+    backgr
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cards {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    width: 80vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

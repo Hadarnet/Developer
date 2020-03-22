@@ -1,0 +1,8 @@
+{
+    "fault": {
+        "faultstring": "Unable to identify proxy for host: secure and url: /",
+        "detail": {
+            "errorcode": "messaging.adaptors.http.flow.ApplicationNotFound"
+        }
+    }
+}

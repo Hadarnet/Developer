@@ -1,0 +1,26 @@
+
+.messages{
+
+  background-image:url('../../static/img/3.jpg');
+  background-size: cover;
+    height: 84vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  
+  
+  }
+  .titleMessages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.535);
+    width: 100vw;
+    height: 25%;
+  }
+  .mainMessages{
+    background-color: rgba(0, 0, 0, 0.535);
+    width: 100vw;
+    height: 70%;
+  }

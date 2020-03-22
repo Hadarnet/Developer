@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    height: 100vh;
+    width: 100vw;
+    font-family: Heebo, sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    height: 10%;
+    width: 100%;
+}
+
+.classNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    height: 8vh;
+
+}
+
+
+.classLogo{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.classHam{
+        display: flex;
+flex-direction: column;
+
+}
+.ham{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.naVlink{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+width: 40%;
+
+}
+
+
+.naVlink a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+
+}
+
+.naVlink a:hover {
+    color: blue;
+}
+.site-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+}
+.textFact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homesSerch{
+    background-image: url("./1.jpg");
+}
+
+
+.songList{
+    display: flex;
+    flex-direction: column;
+}
+
+.song{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    width: 51%;
+}
+
+.footer{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,42 @@
+.container {
+    margin: 30px;
+}
+
+.navgitor {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    border: white 1px solid;
+}
+
+h1, h3 {
+    color: black;
+}
+
+
+.row {
+    text-align: center;
+}
+
+.image {
+    height: 500px;
+    width: 400px;
+    border: white 1px solid;
+    margin-left: 50px;
+}
+
+.image img {
+    height: 450px;
+    width: 450px;
+}
+
+.text {
+    width: 50px;
+}
+
+.foot {
+    height: 100px;
+    width: 100ִֵֵ;
+    background-color: gold;
+    border: white 1px solid;
+}

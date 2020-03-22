@@ -1,0 +1,31 @@
+
+
+div {
+    opacity: 0.5;
+    height: 10rem;
+    width: 5rem;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+
+div:hover {
+    background-color: red;
+    width: 15rem;
+    opacity: 1;
+    text-align: center;
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: purple;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: yellow;
+}

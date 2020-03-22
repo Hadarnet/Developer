@@ -1,0 +1,363 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    
+}
+
+.classNav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 97%;
+    height: 8vh;
+
+}
+
+
+.classLogo{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.classHam{
+        display: flex;
+flex-direction: column; 
+
+}
+.ham{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+  
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.naVlink{
+ display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+width: 40%;
+
+}
+
+
+.naVlink a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+
+}
+  
+.naVlink a:hover {
+    background-color: white;
+    color: black;
+}
+
+.main{
+    background-color: rgba(85, 72, 72, 0.548);
+    width: 100%;
+    height: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.classMain {
+
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+
+
+}
+
+
+.classLink {
+    display: flex;
+    flex-direction: row-reverse;
+        justify-content: space-evenly;
+        width: 90%;
+
+}
+
+.guitar{
+
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+      width: 100%;
+  max-width: 200px;
+  height: 220px;
+    max-height: 100%;
+    border: black 4px solid;
+
+}
+
+.music{
+    background-image: url("../img/2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+      width: 100%;
+  max-width: 200px;
+  height: 220px;
+    max-height: 100%;
+    border: black 4px solid;
+
+
+
+}
+
+.music:hover {
+    background-color: white;
+
+}
+.bText{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+}
+
+
+.classLink .fas {
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    color: white;
+    margin-right: 10px;
+    padding-top: 20PX;
+}
+
+.classLink .fas:hover {
+    background: white(121, 109, 109);
+    color: rgb(241, 255, 44);
+
+
+}
+.classLink a {
+    font-size: 1.45em;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.about P{
+    font-size: medium;
+    color: white;
+    text-align: center;
+    direction: rtl;
+}
+
+
+
+.HomeText{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.HomeText h1, .about h1 {
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-weight: 300;
+    text-shadow: 0 0 6px #000;
+}
+.contactText h2{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-weight: 300;
+    text-shadow: 0 0 5px #000;
+
+
+}
+
+.contact h1 , .contact h3 {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-weight: 300;
+    text-shadow: 0 0 8px #000;
+
+
+}
+
+
+.HomeText h2 {
+    font-size: 44px;
+    color: #efe94b;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+}
+
+.HomeButton{
+    text-align: center;
+    padding-top: 40PX;
+
+}
+.HomeButton button{
+background-color: black;
+border: white 2PX solid;
+cursor: pointer;
+border-radius: 20px;
+padding: 10PX;
+padding-left: 60PX;
+padding-right: 60PX;
+width: 200px;
+transition: background-color 2s, width 2s;
+}
+
+.HomeButton button a{
+    font-size: 17px;
+font-style: bolt;
+font-weight: bold;
+color: white;
+text-decoration: none;
+
+
+}
+.HomeButton button:hover {
+    background-color: white;
+    border: black 2PX solid;
+    color: black;
+    
+
+
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+.image{
+    
+}
+
+.gallery img{
+    height: 50%;
+    width: 90%;
+}
+
+
+.footer{
+    height: 7vh;
+    overflow: hidden;
+    background-color:white;
+    justify-content:center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.footer h2{
+    font-size: 13px;
+    color:black;
+}
+
+
+
+@media only screen and (max-width: 850px){
+
+    
+    .about p{
+        font-size: 2.4vw;
+    
+    }
+    
+    }
+    
+
+@media only screen and (max-width: 670px){
+
+    
+.about p{
+    font-size: 2.8vw;
+
+}
+
+}
+@media only screen and (max-width: 500px){
+    .contact h1 , .contact h3 {
+        font-size: 1.5vw;
+
+    }
+
+    .about p{
+        font-size: 4vw;
+    
+    }
+    .about h1{
+    
+        font-size: 2em;
+    
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+        
+.about p{
+    font-size: 4vw;
+
+}
+.about h1{
+
+    font-size: 2em;
+
+}
+
+}

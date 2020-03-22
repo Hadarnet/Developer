@@ -1,0 +1,70 @@
+
+.tabs{
+    display: flex;
+    justify-content: space-between;
+        flex-direction: row-reverse;
+
+    width: 100%;
+    height: 8vh;
+
+    background-color: #223052b0;
+  
+  }
+  .tab{
+    height: 100%;
+      width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .navText:hover{
+      background-color: #5c5c5c;
+  }
+  .tab a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2vw;
+  }
+  
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+
+    background-color: var(--primary-color);
+
+  }
+  .header{
+    height: 100%;
+      width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+
+  }
+  .navText{
+      display: flex;
+      justify-content: center;
+      align-items:center ;
+      height: 100%;
+      width: 10vw;
+
+  }
+
+  .navText:hover{
+      background-color: #5c5c5c;
+  }
+  .navText a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2vw;
+  }
+

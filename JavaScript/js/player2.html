@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        class Player {
+            constructor(name) {
+                this.name = name;
+                this.score = 0;
+            }
+            didWin() {
+                if (this.score > 30)
+                    return true;
+                else {
+                    return false;
+                }
+            }
+            checkIfPlayerWon (){
+                if(this.didWin())
+                {
+                    console.log(`player ${this.name} won`);
+                    
+                }
+            }
+        }
+        let newPlayer = new Player("sarit")
+        newPlayer.score = 32;
+        console.log(newPlayer.didWin());
+        newPlayer.checkIfPlayerWon();
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.main{
+
+  background-image:url('../../static//img/1.jpg');
+  background-size: cover;
+  background-position: center;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  

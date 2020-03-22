@@ -1,0 +1,11 @@
+.child-flex{
+    background-color: blue;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+}

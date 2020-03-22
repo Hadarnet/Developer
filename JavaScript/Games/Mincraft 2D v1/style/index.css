@@ -1,0 +1,97 @@
+body{
+height: 95vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#wrapper{
+    display: flex;
+    border: 1px black solid ;
+    height: 100% ;
+    width: 100%;
+}
+
+#matrix{
+    border: 1px black solid ;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../img/sky.svg');
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+  
+}
+
+
+#toolBar{
+    display: flex;
+    flex-direction: column;
+border: 1px solid black;
+height: 100%;
+width: 10%;
+}
+
+#Storage{
+
+    border: black 1px solid;
+    color: coral;
+    height: 100%;
+    width: 10%;
+    
+}
+
+.tool{
+    height: 20%;
+    width: 80%;
+
+    background-Position: center;
+    background-repeat: no-repeat;
+
+}
+
+.tile {
+    width: 8%;
+
+}
+
+.sky{
+    background-color: darkblue;
+}
+
+.dirt{
+    background-image:url('../img/dirt.png');
+background-size: cover;
+background-repeat: no-repeat;
+    
+}
+.trunk{
+
+    background-color: brown;
+
+}
+
+.leafs{
+    background-image:url('../img/leafs.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+    
+}
+
+
+.lava{
+
+    background-image:url('../img/lava.gif');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.rocks{
+    background-image: url('../img/rock.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}

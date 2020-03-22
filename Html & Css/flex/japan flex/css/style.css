@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main {
+    border: white 1px solid;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+        background-color: rgba(160, 16, 0, 0.93);
+
+}
+
+.main .left {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 100%;
+    text-align: left;
+    padding: 0 30px;
+    font-size: 5em;
+      
+}
+
+
+.rigth{
+flex-grow: 3;
+flex-basis: 0;
+height: 100%;
+display: flex;
+padding: 0 30px;
+
+text-align: left;
+align-items: center;
+border: #ffffff 1px solid;
+    flex-wrap: wrap;
+    font-size: 1.4vw;
+    font-family: "Lucida Fax";
+    font-weight: bold;
+}
+
+.flag img{
+    height: 100px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+

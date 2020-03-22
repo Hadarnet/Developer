@@ -1,0 +1,29 @@
+
+.gallery{
+
+  background-image:url('../../static/img//9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    height: 84vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+ 
+  .titleGallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.535);
+    width: 100vw;
+    height: 25%;
+  }
+  .mainGallery{
+    background-color: rgba(0, 0, 0, 0.535);
+    width: 100vw;
+    height: 70%;
+  }
+  

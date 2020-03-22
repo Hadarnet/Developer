@@ -1,0 +1,24 @@
+ {% extends 'facts/base.html' %}
+
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'facts/style.css' %}">
+
+{% block content %}
+
+    <h1>הוסף עובדה חדשה!</h1>
+
+    <div>
+        <form method="post">
+            {% csrf_token %}
+            <ul>
+                {{ form.as_ul }}
+            </ul>
+            <button>הוסף</button>
+        </form>
+    </div>
+
+
+
+{% endblock %}

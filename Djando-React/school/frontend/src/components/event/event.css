@@ -1,0 +1,14 @@
+
+.event{
+
+  background-image:url('../../static/img/6.jpg');
+  background-size: cover;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  

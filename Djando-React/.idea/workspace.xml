@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8069e3c8-c0d6-4518-a1e7-51e93f4e7a8a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XqxOMIg5EP73q4eKoSUSRdZBBn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SchoolSystem/website/static" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\frontend\static\frontend" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\frontend\src\components" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\backend\teachers" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\backend" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\backend\schools" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\website\static" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\front-end\src\components" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\frontend\templates\frontend" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\backend\teachers" />
+      <recent name="C:\Users\NoName\study\AppelSeedBootcamp\Djando-React\SchoolSystem\backend\klass" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8069e3c8-c0d6-4518-a1e7-51e93f4e7a8a" name="Default Changelist" comment="" />
+      <created>1581787392104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581787392104</updated>
+      <workItem from="1581787397070" duration="15397000" />
+      <workItem from="1581807115914" duration="598000" />
+      <workItem from="1581810267171" duration="3525000" />
+      <workItem from="1581893291788" duration="534000" />
+      <workItem from="1581901801408" duration="8510000" />
+      <workItem from="1583621921852" duration="91000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Inspections" timestamp="1581795552464">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1581795552464" />
+    <state x="442" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581788094805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581788094805" />
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1581810584674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581810584673" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1581902425551">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581902425551" />
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583621929864">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583621929864" />
+    <state x="383" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581811895832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="383" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1581811895832" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581939386848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581939386848" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SchoolSystem/schools/urls.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SchoolSystem/students/views.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

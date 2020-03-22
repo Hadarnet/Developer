@@ -1,0 +1,16 @@
+*{    overflow: hidden;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.box {
+    width: 100vw; height: 100vh;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, red 50%, black 50%);
+    transition: background-position 1s;
+}
+
+.box:hover {
+    background-position: 0 100%;
+}

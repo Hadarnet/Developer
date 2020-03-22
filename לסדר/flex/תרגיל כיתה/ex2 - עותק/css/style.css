@@ -1,0 +1,53 @@
+.child-flex {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    flex-grow: 1;
+    margin: 10PX;
+    font-size: 40PX;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.container {
+    border: black 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1 {
+    padding: 10px;
+    border: black 1px solid;
+    padding: 10px;
+    display: flex;
+align-items: center
+;}
+
+.child-flxe1 {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    margin: 10PX;
+    font-size: 40PX;
+    text-align: center;
+color: whitesmoke;
+
+
+}
+
+.container1 .child-flex2 {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    flex-grow: 2;
+    margin: 10PX;
+    font-size: 40PX;
+    text-align: center;
+    color: blanchedalmond;
+
+
+
+}

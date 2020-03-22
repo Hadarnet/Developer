@@ -1,0 +1,19 @@
+
+<link rel="">
+
+<h1>My Expenses</h1>
+<ul>
+    {% for item in shop_list %}
+        <li>{{ item }}</li>
+    {% endfor %}
+
+</ul>
+
+
+<div>
+    {% for x in num_list %}
+        ∫ {{forloop.counter0}}&sup2 = {{ x }}
+    {% endfor %}
+
+</div>
+

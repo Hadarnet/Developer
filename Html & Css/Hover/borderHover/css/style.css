@@ -1,0 +1,16 @@
+*{    overflow: hidden;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.box {
+    border: royalblue 3px solid;
+    width: 97vw; height: 100vh;
+    background-color: royalblue;
+    transition: border 1s;
+}
+
+.box:hover {
+    border: red 3px solid;
+}

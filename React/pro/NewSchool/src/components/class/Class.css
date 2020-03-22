@@ -1,0 +1,9 @@
+.from{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 16;
+    padding: 5px;
+    height: 96%;
+
+}

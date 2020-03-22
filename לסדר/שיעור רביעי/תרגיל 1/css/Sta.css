@@ -1,0 +1,50 @@
+section{
+    height: 200px;
+    border: blue 1px solid;
+}
+
+nav{
+
+    border: teal 1px solid;
+height: 100px;
+position: relative;
+}
+
+nav .logo{
+width: 10px;
+width: 20px;
+
+}
+ nav .logo img{
+    position: absolute;
+    left:  3%;
+
+     
+ }
+ nav .nav{
+     display: none;
+ }
+
+ nav div{
+     top: 50%;
+     position: absolute;
+transform: translateY(-50);
+ }
+
+ nav .ham img{
+     width: 20px;
+ }
+
+ 
+ body{
+    flex-basis: 100%;
+ }
+
+ @media (max-width: 768px)
+
+    nav .nav{
+       display: block;
+   }
+   nav .ham {
+       display: none;
+   }

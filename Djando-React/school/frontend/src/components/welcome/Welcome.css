@@ -1,0 +1,25 @@
+
+.welcome h1{
+  color: white;
+  font-size: 3svw;
+  margin: 0;
+  padding: 20px;
+}
+.mainText h3{
+  color: whitesmoke;
+  font-size: 2vw;
+
+
+}
+
+.welcomeMain{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.503);
+  width: 100vw;
+  height: 45vh;
+  align-items: center;
+  
+
+}

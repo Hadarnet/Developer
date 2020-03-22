@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+.menu{
+    background-image: linear-gradient(to right, blue , gray);
+    vertical-align: middle;
+
+}
+.menu .menu-entry{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: monospace;
+}
+
+.menu img.menu-entry{
+    width: 170px;
+    height: 70px ;
+}
+
+.menu i.material-icons{
+
+    width: 50px;
+    color: cornsilk;
+    
+}
+.cool{
+    background-image: url("../img/img.jpg");
+    background-size: cover;
+    height: 700px;
+    margin: 0px;
+    text-align: center;
+
+}
+.cool h1.open{
+    color: cornsilk;
+text-align: center;
+margin: 0px;
+padding: 50px;
+font-size: 40px;
+
+
+}    
+
+.cool button.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ }

@@ -1,0 +1,18 @@
+
+.about{
+
+  background-image:url('../../img/2.jpg');
+  background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  
+  }
+  
+  .mainAbout{
+    background-color: rgba(0, 0, 0, 0.335);
+    width: 100vw;
+  }

@@ -1,0 +1,50 @@
+.studentList{
+    height: 100%;
+
+}
+
+
+
+.mainStudent{
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    height: 95%;
+    width: 99%;
+
+
+}
+
+.itemStudent{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 25%;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+
+}
+.avatar{
+    width: 6vw;
+    height: 8vh;
+    
+}
+.avatar img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;}
+
+    .name{
+display: flex;
+    width: 27%;
+    font-weight: bold;
+
+    }

@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.navbar , .navbar1 {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+.navbar{
+    background-color: #333;
+
+}
+.navbar1 {
+background-color: transparent;
+width: 100vw;
+z-index: 5;
+position: absolute;
+padding: 10px;
+}
+.clogo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cham {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.ham {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+}
+.ham1 {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0;
+}
+
+
+.logo {
+    padding-right: 15px;
+}
+
+.logo img {
+    height: 42px;
+    width: 42px;
+}
+
+.hadar , .hadar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.hadar a {
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+.hadar1 a {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+}
+
+.bar , .bar1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.bar a {
+    font-family: 'heebo', sans-serif;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bar1 a {
+    font-family: 'heebo', sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.bar a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.link {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+
+.link .fas {
+    background: black;
+    opacity: 0.9;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    height: 70px;
+    width:80px;
+    margin-right: 10px;
+    padding-top: 20PX;
+    text-align: center;
+}
+
+.link .fas:hover {
+    background: white;
+    color: black;
+}
+
+.link h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.main  {
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+}
+
+.main1{
+    width: 100vw;
+    height: 93.1vh;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.main .left {
+    background-image: url("../img/main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 16;
+    flex-basis: 0;
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+}
+.main1 .left {
+    background-image: url("../img/main1.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 16;
+    flex-basis: 0;
+    height: 93.1vh;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.backtext{
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.maintetex {
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+}
+
+.Home h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-weight: 300;
+    text-shadow: 0 0 2px #000;
+}
+
+.Home h2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+}
+.rigth {
+    height: 87vh;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    position: absolute;
+    direction: rtl;
+    right: 0px;
+}
+.rigth1 {
+    height: 93vh;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.slider div  {
+    height: 12.8vh;
+    width: 13rem;
+    transition: all 0.4s ease 0.5s;
+}
+
+.slider1 div {
+    height: 23.3vh;
+    width: 13rem;
+    transition: all 0.4s ease 0.5s;
+}
+
+.slider > div:hover , .slider1 div:hover {
+    background-color: rgba(32, 178, 171, 0.5);
+    /* padding-left: 200px; */
+    transform: translateX(-110px);
+
+}
+
+.slider {
+    display: flex;
+    height: 87vh;
+    flex-direction: column;
+    position: absolute;
+    transform: translateX(150px);
+
+}
+.slider1 {
+    display: flex;
+    height: 93vh;
+    flex-direction: column;
+}
+
+
+.box1 .fas, .box2 .fab, .box2 .fas, .box3 .fas, .box4 .fas {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    color: black;
+}
+
+.box1 h3 {
+    font-family: 'heebo', sans-serif;
+    font-size: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;}
+.slider1 h3 {
+
+    font-family: 'heebo', sans-serif;
+    font-size: 10px;
+    opacity: 1;
+}
+
+.box1 {
+    background-color: rgba(25, 25, 112, 0.5);
+    display: flex;
+    position: relative;
+
+}
+.box2 {
+    background-color: rgba(169, 169, 169, 0.507);
+    ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.box3 {
+    background-color: rgba(222, 184, 135, 0.5);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.box4 {
+    background-color: rgba(255, 228, 196, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.cboot {
+    text-align: center;
+    padding-top: 40PX;
+}
+
+.cboot button {
+    background-color: black;
+    border: white 2PX solid;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10PX;
+    padding-left: 60PX;
+    padding-right: 60PX;
+    width: 200px;
+    font-size: 12px;
+    font-style: bolt;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    transition: background-color 2s, width 2s;
+}
+
+.cboot button:hover {
+    background-color: white;
+    border: black 2PX solid;
+    color: black;
+}
+
+.Textcs h2{
+    font-family: 'heebo' , sans-serif;
+    font-size: 14px;
+    color: white;
+    text-shadow: 0 0 4px #000;
+    text-align: center;
+
+
+}
+input{
+    width: 500px;
+    height: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+text-align: center;
+}
+.cform{
+    display: flex;
+    margin-top: 70px;
+    padding-right: 80px;
+
+    
+}
+
+
+footer.cfooter {
+    height: 6vh;
+    overflow: hidden;
+    background-color: rgba(14, 13, 13, 0.822);
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cfooter h2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+}

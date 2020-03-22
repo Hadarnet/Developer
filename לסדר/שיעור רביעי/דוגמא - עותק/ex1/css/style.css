@@ -1,0 +1,25 @@
+
+.text{
+    font-size: 20px;
+}
+
+@media (min-width: 680px) {
+    .text{
+        font-size: 30px;
+    }
+}
+@media (min-width: 810px) {
+    .text{
+        font-size: 40px;
+    }
+}
+@media (min-width: 1000px) {
+    .text{
+        font-size: 40px;
+    }
+}
+@media (min-width: 1200px) {
+    .text{
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,51 @@
+#drawing {
+    border: 1px solid #000;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+
+body{
+    background-image: url('../img/background.jpg');
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    overflow:hidden ;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-weight: 100;
+    width: 100%;
+    height: 10%;
+}    
+
+.textFo h2{
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.linkFo a{
+    color: navy;
+    
+    font-size: 20px;
+    font-weight: 100;
+
+
+    text-decoration: none;
+
+}
